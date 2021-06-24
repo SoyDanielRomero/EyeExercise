@@ -1,7 +1,7 @@
 # Eye Exercise 👨‍💻
 <img src='./eyes.png'>
 
-This is an exercise developed during MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. It is about moving objects in the screen following cursor. To achieve this, we should detect the cursor position, store its coordinates to update the eyes position dynamically
+This is an exercise developed during MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. It is about moving objects on the screen following the cursor. To achieve this, we should detect the cursor position, store its coordinates to update the eyes position dynamically
 
 ## Installation 🔧
 
@@ -14,10 +14,7 @@ To install this proyect in your machine, follow these steps:
 
 ## Usage 🚀
 
-1. Create as many PacMen as you like by clicking the Add a PacMen button
-2. Make them move and bounce by clicking the Start Game button
-3. Hit Reset button if you want to clear the screen
-
+- Move the mouse trough the screen, the eyes will follow it
 
 [Live Demo](https://soydanielromero.github.io/EyeExercise/)
 
@@ -27,7 +24,7 @@ If you have any question please send an email to: [hola@soydanielromero.com](mai
 
 ## Roadmap 🗺
 
-This is a coding exercise and there won't be any fixes or improvements.
+- Responsive support
 
 ## License information 👨‍⚖️
 
@@ -54,20 +51,9 @@ SOFTWARE.
 ## Files 📁
 
 - Root
+    - eyes.js
+    - eyes.png
     - index.html
     - LICENSE
     - README.md
-- /img
-    - Ghost1.png
-    - Ghost2.png
-    - Ghost3.png
-    - Ghost4.png
-    - PacMan1.png
-    - PacMan2.png
-    - PacMan3.png
-    - PacMan4.png
-- /scripts
-    - pacman.js
-- /source
-    - LICENSE
-    - starter01.html
+    - styles.css
